@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnRoll = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnList = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -45,17 +45,17 @@
             this.btnRoll.Text = "Выбрать фильм";
             this.btnRoll.UseVisualStyleBackColor = true;
             // 
-            // btnAdd
+            // btnList
             // 
-            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAdd.Font = new System.Drawing.Font("Segoe Print", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnAdd.Location = new System.Drawing.Point(48, 32);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(250, 250);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Добавить новые фильмы";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnList.Font = new System.Drawing.Font("Segoe Print", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnList.Location = new System.Drawing.Point(48, 32);
+            this.btnList.Name = "btnList";
+            this.btnList.Size = new System.Drawing.Size(250, 250);
+            this.btnList.TabIndex = 0;
+            this.btnList.Text = "Управление списком";
+            this.btnList.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -76,7 +76,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRoll);
-            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnList);
             this.Name = "Choice";
             this.Size = new System.Drawing.Size(347, 315);
             this.ResumeLayout(false);
@@ -86,7 +86,7 @@
 
         #endregion
         private System.Windows.Forms.Button btnRoll;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -19,7 +19,8 @@ namespace CinemaCards
             Controls.Clear();
             switch (newState)
             {
-                case "add":
+                case "list":
+
                     break;
                 case "roll":
                     break;
@@ -27,15 +28,15 @@ namespace CinemaCards
                     var choice = new Choice();
                     choice.Dock = DockStyle.Fill;
                     Controls.Add(choice);
-                    choice.Controls["btnAdd"].Click += choiceAdd_click;
+                    choice.Controls["btnList"].Click += choiceList_click;
                     choice.Controls["btnRoll"].Click += choiceRoll_click;
                     break;
             }
         }
 
-        void choiceAdd_click(object sender, System.EventArgs e)
+        void choiceList_click(object sender, System.EventArgs e)
         {
-            setState("add");
+            setState("list");
         }
 
         void choiceRoll_click(object sender, System.EventArgs e)
