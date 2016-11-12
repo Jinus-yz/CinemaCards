@@ -8,5 +8,10 @@ namespace CinemaCards.Classes
 {
     class FilmCard
     {
+        String name;
+        public FilmCard(string iName)
+        {
+            name = iName;
+        }
     }
 }
